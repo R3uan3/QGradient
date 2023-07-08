@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\| QGRADIENT |">
+      <UniqueIdentifier>{12ab0689-17f8-402a-8923-be853c270e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\| QGRADIENT |">
+      <UniqueIdentifier>{8adfa081-734c-46fd-9f25-1e52bedc7506}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="QGradient.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="MainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QGradientEditor__6.6.0\qtcolorline.cpp">
+      <Filter>Source Files\| QGRADIENT |</Filter>
+    </ClCompile>
+    <ClCompile Include="QGradientEditor__6.6.0\qtgradientmanager.cpp">
+      <Filter>Source Files\| QGRADIENT |</Filter>
+    </ClCompile>
+    <ClCompile Include="QGradientEditor__6.6.0\qtgradientstopsmodel.cpp">
+      <Filter>Source Files\| QGRADIENT |</Filter>
+    </ClCompile>
+    <ClCompile Include="QGradientEditor__6.6.0\qtgradientutils.cpp">
+      <Filter>Source Files\| QGRADIENT |</Filter>
+    </ClCompile>
+    <ClCompile Include="QGradientEditor__6.6.0\qtgradientview.cpp">
+      <Filter>Source Files\| QGRADIENT |</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="QGradientEditor__6.6.0\qtgradientdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="QGradientEditor__6.6.0\qtgradienteditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QGradientEditor__6.6.0\qtcolorbutton.h">
+      <Filter>Header Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtcolorline.h">
+      <Filter>Header Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtgradientdialog.h">
+      <Filter>Header Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtgradienteditor.h">
+      <Filter>Header Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtgradientmanager.h">
+      <Filter>Header Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtgradientstopscontroller.h">
+      <Filter>Header Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtgradientstopsmodel.h">
+      <Filter>Header Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtgradientstopswidget.h">
+      <Filter>Header Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtcolorbutton.cpp">
+      <Filter>Source Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtgradientdialog.cpp">
+      <Filter>Source Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtgradienteditor.cpp">
+      <Filter>Source Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtgradientstopscontroller.cpp">
+      <Filter>Source Files\| QGRADIENT |</Filter>
+    </QtMoc>
+    <QtMoc Include="QGradientEditor__6.6.0\qtgradientstopswidget.cpp">
+      <Filter>Source Files\| QGRADIENT |</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QGradientEditor__6.6.0\qtgradientutils.h">
+      <Filter>Header Files\| QGRADIENT |</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
